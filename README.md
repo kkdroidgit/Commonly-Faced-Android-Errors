@@ -8,6 +8,10 @@ Sometimes Android Studio is unable to generate `R.java` file correctly. `R.java`
 The most optimum solution is to Clean Build the Project and Sync again. <b> Build > Clean Project </b> would normally resolove this issue. Also check for the import statements and see if the package name is correct. If there is some modifications in directories and files you would do <b> File > Invalidate Caches / Restart > Invalidate and Restart </b>. 
 
 
+## 2. Getting MainActivity.kt instead of MainActivity.java
+`.kt` is for Kotlin file extension. This is not an error but if you are following the Android Basics Course code, it will generate errors. The Course follows Java programming language, instead of Kotlin. This appears when you check `Include Kotlin` option in the begining of your Project Creation.
 
+## Solution :-
+It is recommended that to close this project and create a new one. Refractoring `MainActivity.kt` to `MainActivity.java` might do the trick, but you need to change every Java file thereafter. Since Kotlin is 100% interoperable with Java, you can incorporate it seamlessly into your existing app. So if you are following this course, create a new project.
 
 
