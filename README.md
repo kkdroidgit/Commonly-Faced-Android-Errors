@@ -19,3 +19,16 @@ The most optimum solution is to Clean Build the Project and Sync again. <b> Buil
 It is recommended that to close this project and create a new one. Refractoring `MainActivity.kt` to `MainActivity.java` might do the trick, but you need to change every Java file thereafter. Since Kotlin is 100% interoperable with Java, you can incorporate it seamlessly into your existing app. So if you are following this course, create a new project.
 
 
+## 3. What is Gradle? Does Gradle == Error?
+Gradle can be bit confusing for a new Android developer. Sometimes people make it synonymous to error. 
+
+## Solution :-
+tl;dr :
+Gradle is a system to build Android Applications.
+
+Read on:-
+Gradle is a build system and is improvised form of other build systems. It is based on JVM. You must have seen build.gradle file(s) in your project. That is where you can write scripts to automate your tasks. The code you saw in these files is Groovy code. If you write System.out.println("Hello Gradle!"); then it will print on your console. Gradle doesn't correspond to errors. Read more at https://stackoverflow.com/questions/16754643/what-is-gradle-in-android-studio
+
+
+
+
