@@ -1,6 +1,8 @@
 # Commonly-Faced-Android-Errors
 
-<img src="https://imgur.com/a/5ctBt" width="270">/
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/5ctBt"><a href="//imgur.com/5ctBt"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
+<!--<img src="https://imgur.com/a/5ctBt" width="270">-->
 
 A curated list of commonly faced issues and error messages and how to solve them. The list is specifically designed for Android Basics Course on Udacity as a part of Google Challenge India Scholarship, though most errors are general in nature and can occur while developing for any application.
 
