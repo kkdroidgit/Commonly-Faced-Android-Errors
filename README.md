@@ -23,7 +23,7 @@ It is recommended that to close this project and create a new one. Refractoring 
 Gradle can be bit confusing for a new Android developer. Sometimes people make it synonymous to error. 
 
 ## Solution :-
-tl;dr :
+<b>tl;dr : </b>
 Gradle is a system to build Android Applications.
 
 Read on:-
