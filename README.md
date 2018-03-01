@@ -1,6 +1,6 @@
 # Commonly-Faced-Android-Errors
 
-<img src="https://i.imgur.com/Pf8CTIc.jpg" width="270">
+<img src="https://i.imgur.com/Pf8CTIc.jpg" width="350">
 
 A curated list of commonly faced issues and error messages and how to solve them. The list is specifically designed for Android Basics Course on Udacity as a part of Google Challenge India Scholarship, though most errors are general in nature and can occur while developing for any application.
 
@@ -39,7 +39,6 @@ Install JDK 1.8. Then in Android Studio navigate to File-> Project Structure-> S
 
 <img src="https://i.imgur.com/TFGKwJe.png">
 
-[img][/img]
 
 ## Solution :-
 Click on `Install missing platform(s) and sync project` in Messages Gradle Sync tab and download the build tools.
