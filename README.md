@@ -1,5 +1,9 @@
 # Commonly-Faced-Android-Errors
+
+<img src="https://imgur.com/a/5ctBt" width="270">/
+
 A curated list of commonly faced issues and error messages and how to solve them. The list is specifically designed for Android Basics Course on Udacity as a part of Google Challenge India Scholarship, though most errors are general in nature and can occur while developing for any application.
+
 
 ## 1. Cannot Resolve Symbol (-R) or R.layout.main Cannot Be Found
 Sometimes Android Studio is unable to generate `R.java` file correctly. `R.java` is a dynamically generated class, created during build process to dynamically identify all assets (from strings to android widgets to layouts), for usage in our java classes.
