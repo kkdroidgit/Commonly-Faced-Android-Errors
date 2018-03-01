@@ -29,6 +29,17 @@ Gradle is a system to build Android Applications.
 Read on:-
 Gradle is a build system and is improvised form of other build systems. It is based on JVM. You must have seen build.gradle file(s) in your project. That is where you can write scripts to automate your tasks. The code you saw in these files is Groovy code. If you write System.out.println("Hello Gradle!"); then it will print on your console. Gradle doesn't correspond to errors. Read more at https://stackoverflow.com/questions/16754643/what-is-gradle-in-android-studio
 
+## 3. Error:CreateProcess error=216, This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher
+
+## Solution :-
+Install JDK 1.8. Then in Android Studio navigate to File-> Project Structure-> SDK Location, select your directory where the JDK is located.Click OK and you are good to go.
+
+
+
+
+
+
+
 
 
 
