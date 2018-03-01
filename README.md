@@ -27,7 +27,7 @@ Gradle can be bit confusing for a new Android developer. Sometimes people make i
 Gradle is a system to build Android Applications.
 
 Read on:-
-Gradle is a build system and is improvised form of other build systems. It is based on JVM. You must have seen build.gradle file(s) in your project. That is where you can write scripts to automate your tasks. The code you saw in these files is Groovy code. If you write System.out.println("Hello Gradle!"); then it will print on your console. Gradle doesn't correspond to errors. Read more at https://stackoverflow.com/questions/16754643/what-is-gradle-in-android-studio
+Gradle is a build system and is improvised form of other build systems. It is based on JVM. You must have seen build.gradle file(s) in your project. That is where you can write scripts to automate your tasks. The code you saw in these files is Groovy code. If you write `System.out.println("Hello Gradle!");` then it will print on your console. Gradle doesn't correspond to errors. Read more at https://stackoverflow.com/questions/16754643/what-is-gradle-in-android-studio
 
 ## 4. Error:CreateProcess error=216, This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher
 
@@ -43,7 +43,7 @@ Install JDK 1.8. Then in Android Studio navigate to File-> Project Structure-> S
 ## Solution :-
 Click on `Install missing platform(s) and sync project` in Messages Gradle Sync tab and download the build tools.
 Or alternatively,
-under $PROJECT_ROOT/app/build.gradle folder open build.gradle file and add "buildToolsVersion `27.0.3`
+under `$PROJECT_ROOT/app/build.gradle` folder open `build.gradle` file and add `buildToolsVersion '27.0.3'`
 
 ```
 android {
@@ -59,10 +59,5 @@ android {
     }
     // more
     
-  } 
+} 
 ```
-
-
-
-
-
