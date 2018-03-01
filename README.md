@@ -42,7 +42,7 @@ Install JDK 1.8. Then in Android Studio navigate to File-> Project Structure-> S
 ## Solution :-
 Click on `Install missing platform(s) and sync project` in Messages Gradle Sync tab and download the build tools.
 Or alternatively,
-under $PROJECT_TOOT/app/build.gradle folder open build.gradle file and add "buildToolsVersion `27.0.3`
+under $PROJECT_ROOT/app/build.gradle folder open build.gradle file and add "buildToolsVersion `27.0.3`
 
 ```
 android {
