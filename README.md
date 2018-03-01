@@ -37,7 +37,9 @@ Install JDK 1.8. Then in Android Studio navigate to File-> Project Structure-> S
 
 ## 5. Failed to find Build Tools revision 26.0.2
 
-<img src="https://discourse-cdn-sjc3.com/udacity/uploads/default/original/4X/4/7/c/47c82a88ca4bbd82a2ebf93a0d85c35d4e0c8b90.png" width="270">
+<img src="https://i.imgur.com/TFGKwJe.png">
+
+[img][/img]
 
 ## Solution :-
 Click on `Install missing platform(s) and sync project` in Messages Gradle Sync tab and download the build tools.
