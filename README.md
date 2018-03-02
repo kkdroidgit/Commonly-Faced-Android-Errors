@@ -65,7 +65,7 @@ android {
 
 ## 6. Incorrect placement of Views even after applying correct attributes
 
-<img src="https://i.imgur.com/kI6SyuY.png">
+<img src="https://i.imgur.com/kI6SyuY.png" width="360">
 
 
 ## Problem :- 
