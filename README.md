@@ -1,4 +1,4 @@
-# Commonly-Faced-Android-Errors
+# Commonly-Faced-Android-Errors-and-Issues
 
 <img src="https://i.imgur.com/Pf8CTIc.jpg" width="350">
 
@@ -27,7 +27,7 @@ Gradle can be bit confusing for a new Android developer. Sometimes people make i
 Gradle is a system to build Android Applications.
 
 Read on:-
-Gradle is a build system and is improvised form of other build systems. It is based on JVM. You must have seen build.gradle file(s) in your project. That is where you can write scripts to automate your tasks. The code you saw in these files is Groovy code. If you write `System.out.println("Hello Gradle!");` then it will print on your console. Gradle doesn't correspond to errors. Read more at https://stackoverflow.com/questions/16754643/what-is-gradle-in-android-studio
+Gradle is a build system and is improvised form of other build systems. It is based on JVM. You must have seen build.gradle file(s) in your project. That is where you can write scripts to automate your tasks. The code you saw in these files is Groovy code. If you write `System.out.println("Hello Gradle!");` then it will print on your console. Gradle doesn't correspond to errors. [Read more](https://stackoverflow.com/questions/16754643/what-is-gradle-in-android-studio)
 
 ## 4. Error:CreateProcess error=216, This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher
 
@@ -67,10 +67,39 @@ android {
 
 <img src="https://i.imgur.com/kI6SyuY.png" width="360">
 
-
-## Problem :- 
 This is not an error but just a project setup tip. Android Studio now uses Constraint Layout as root viewgroup in default templates. But at the time the course videos were recorded this wasn't the case. Therefore, if you copy paste some xml code from instructor notes to your activity's xml file, the appearance is not the same.
 
 ## Solution :-
 Go to your activity_name.xml file and replace `android.support.constraint.ConstraintLayout` with `RelativeLayout`. In most cases, you can find this in the second line of the file just after `<?xml version="1.0" encoding="utf-8"?>`.
+
+## 6. Disabling Landscape Mode/Orientation Changes for your app
+
+If you have enabled auto-rotation feature on your phone then your app might look completely different in the landscape mode. So how can you disable the auto-rotate feature in Android?
+
+## Solution :-
+Navigate to `AndroidManifest.xml` and in the activity declaration add the following :
+
+```
+<activity android:name=".MainActivity"
+    android:screenOrientation="portrait" />
+```
+This forces your application to be in potrait mode only. If you want this for whole application check this [post](https://stackoverflow.com/questions/6745797/how-to-set-entire-application-in-portrait-mode-only/9784269#9784269)
+
+
+
+
+
+
+
+
+
+
+
+
+# Credits
+
+- kartikohri1712 - [GitHub](https://github.com/kartikohri1712)
+- Tirth Patel - [Github](https://github.com/piedcipher)
+- Ikram Mohammad - [Github](https://github.com/Ikramkhan786)
+
 
