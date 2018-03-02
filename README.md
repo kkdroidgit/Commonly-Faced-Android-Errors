@@ -72,7 +72,7 @@ This is not an error but just a project setup tip. Android Studio now uses Const
 ## Solution :-
 Go to your activity_name.xml file and replace `android.support.constraint.ConstraintLayout` with `RelativeLayout`. In most cases, you can find this in the second line of the file just after `<?xml version="1.0" encoding="utf-8"?>`.
 
-## 6. Disabling Landscape Mode/Orientation Changes for your app
+## 7. Disabling Landscape Mode/Orientation Changes for your app
 
 If you have enabled auto-rotation feature on your phone then your app might look completely different in the landscape mode. So how can you disable the auto-rotate feature in Android?
 
