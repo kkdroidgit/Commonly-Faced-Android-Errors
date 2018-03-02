@@ -61,3 +61,16 @@ android {
     
 } 
 ```
+
+
+## 6. Incorrect placement of Views even after applying correct attributes
+
+<img src="https://i.imgur.com/kI6SyuY.png">
+
+
+## Problem :- 
+This is not an error but just a project setup tip. Android Studio now uses Constraint Layout as root viewgroup in default templates. But at the time the course videos were recorded this wasn't the case. Therefore, if you copy paste some xml code from instructor notes to your activity's xml file, the appearance is not the same.
+
+## Solution :-
+Go to your activity_name.xml file and replace `android.support.constraint.ConstraintLayout` with `RelativeLayout`. In most cases, you can find this in the second line of the file just after `<?xml version="1.0" encoding="utf-8"?>`.
+
