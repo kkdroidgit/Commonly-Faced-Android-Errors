@@ -131,6 +131,19 @@ Alternatively,
 
 ![alt text](http://i67.tinypic.com/dors5j.jpg)
 
+
+
+## 12. For giving border radius to buttons, shape.xml needs to be formed in "drawable" folder.
+       not in "values" folder.
+
+## Solution :-
+- Right click on drawable folder
+- Make a new drawable resource file
+- Name it as shape.xml
+
+![alt text](http://i65.tinypic.com/mbspyr.png)
+       
+
 # Credits
 
 - kartikohri1712 - [GitHub](https://github.com/kartikohri1712)
