@@ -101,8 +101,14 @@ Alternatively,
 - Go to Permission in Settings and click `Install Via USB`
 
 
+## 9. AAPT2 Error during Gradle Build
 
+## Solution:-
+- Go to Gradle Script
+- Left click on build.gradle (Module:app)
+- Type in "android.Aapt2=false"
 
+![alt text](https://i.stack.imgur.com/lWyT2.png)
 
 
 # Credits
