@@ -122,6 +122,15 @@ Alternatively,
 
 ![alt text](https://i.stack.imgur.com/lWyT2.png)
 
+
+
+## 11. layout_weight property not working
+
+## Solution :-
+- Parent Linear Layout's _height_ and _width_ should be set to "match parent"
+
+![alt text](http://i67.tinypic.com/dors5j.jpg)
+
 # Credits
 
 - kartikohri1712 - [GitHub](https://github.com/kartikohri1712)
