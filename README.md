@@ -113,6 +113,15 @@ Alternatively,
 
 
 
+## 10. Gradle Build showing AAPT2 Error : "com.android.tools.aapt2.Aapt2Exception: AAPT2 error: check logs for details"
+
+## Solution :-
+- Go to Gradle Scripts
+- Left click on build.gradle (Module.app)
+- Type in android.enableAapt2=false
+
+![alt text](https://i.stack.imgur.com/lWyT2.png)
+
 # Credits
 
 - kartikohri1712 - [GitHub](https://github.com/kartikohri1712)
