@@ -101,12 +101,6 @@ Alternatively,
 - Go to Permission in Settings and click `Install Via USB`
 
 
-## 9. AAPT2 Error during Gradle Build
-
-## Solution:-
-- Go to Gradle Script
-- Left click on build.gradle (Module:app)
-- Type in "android.Aapt2=false"
 
 ## 9. Session 'app': Error Launching activity
 
@@ -117,7 +111,6 @@ Alternatively,
 
 - If that doesn't help, remove `.gradle` and `.idea` directories manually by switching to [Project View](https://developer.android.com/studio/projects/index.html) (Look for `The Android Project View` in this webpage), and later `Rebuild Project` and `Re-run`. 
 
-![alt text](https://i.stack.imgur.com/lWyT2.png)
 
 
 ## 10. Gradle Build showing AAPT2 Error : "com.android.tools.aapt2.Aapt2Exception: AAPT2 error: check logs for details"
