@@ -102,6 +102,14 @@ Alternatively,
 
 
 
+## 9. Session 'app': Error Launching activity
+
+## Solution :-
+- If app was installed via `USB debugging` on a real device, then it gets installed for all the **User Accounts** present on the device. So, if you uninstalled app from **Current User Account** then, next time on a new installation of same app `(by pressing run button from Android Studio)`, you might get this error: ***Session 'app': Error Launching activity***.
+
+- To resolve this, [Switch to other User Accounts](https://support.google.com/nexus/answer/2865483?hl=en) and delete that app from all other **User Accounts** including **Guest Account.**
+
+- If that doesn't help, remove `.gradle` and `.idea` directories manually by switching to [Project View](https://developer.android.com/studio/projects/index.html) (Look for `The Android Project View` in this webpage), and later `Rebuild Project` and `Re-run`. 
 
 
 
