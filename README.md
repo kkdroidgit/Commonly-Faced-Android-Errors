@@ -135,7 +135,7 @@ Alternatively,
 
 - kartikohri1712 - [GitHub](https://github.com/kartikohri1712)
 - Tirth Patel - [Github](https://github.com/piedcipher)
-- Divya Thakur - [Github](https://github.com/divyathakur24)
 - Ikram Mohammad - [Github](https://github.com/Ikramkhan786)
+- Divya Thakur - [Github](https://github.com/DivyaThakur24)
 
 
