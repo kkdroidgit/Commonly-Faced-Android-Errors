@@ -87,9 +87,18 @@ This forces your application to be in potrait mode only. If you want this for wh
 
 
 
+## 8. Android Studio not Detecting Redmi Devices Even after USB Debugging Enabled
 
+## Solution :-
 
+- Go to Settings > Additional settings > Developer options
+- Disable the "Turn on MUI optimization"
+- Reboot your phone
 
+Alternatively,
+- Install Mi PC Suite
+- Connect Your Phone
+- Go to Permission in Settings and click `Install Via USB`
 
 
 
