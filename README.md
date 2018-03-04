@@ -142,7 +142,29 @@ Alternatively,
 - Name it as shape.xml
 
 <img src="http://i65.tinypic.com/mbspyr.png" width="450">
+
+
+
+## 13. Gradle failed to resolve library in Android studio.
+
+## Solution:-
+You go File->Settings->Gradle Look at the "Offline work" inbox, if it's checked you uncheck and try to sync again. [Source](https://stackoverflow.com/questions/28493470/gradle-failed-to-resolve-library-in-android-studio)
+
+
+
+## 14. Removing Hard Coded Strings from your XML
        
+## Solution:-
+Make a separate strings.xml resource file in Android Studio and use that.
+Set the cursor inside the text you want to extract (here the text is the title “Cancel”) and hit ALT + Enter  and select “Extract string resource”:
+
+<img src="http://envyandroid.com/content/images/2014/03/extract1.png" width="450">
+
+Give your resource a describing name and hit “Ok”:
+
+<img src="http://envyandroid.com/content/images/2014/03/extract2.png" width="450">
+          
+          Your string has now been moved to the strings.xml file.
 
 # Credits
 
@@ -150,5 +172,5 @@ Alternatively,
 - Tirth Patel - [Github](https://github.com/piedcipher)
 - Divya Thakur - [Github](https://github.com/divyathakur24)
 - Ikram Mohammad - [Github](https://github.com/Ikramkhan786)
-
+- Ojasvi Bhargava -[Github](https://github.com/ojasvibhargava)
 
