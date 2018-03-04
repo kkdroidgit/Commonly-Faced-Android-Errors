@@ -129,7 +129,7 @@ Alternatively,
 ## Solution :-
 - Parent Linear Layout's _height_ and _width_ should be set to "match parent"
 
-![alt text](http://i67.tinypic.com/dors5j.jpg)
+<img src="http://i67.tinypic.com/dors5j.jpg" width="450">
 
 
 
@@ -141,7 +141,7 @@ Alternatively,
 - Make a new drawable resource file
 - Name it as shape.xml
 
-![alt text](http://i65.tinypic.com/mbspyr.png)
+<img src="http://i65.tinypic.com/mbspyr.png" width="450">
        
 
 # Credits
