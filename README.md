@@ -166,6 +166,23 @@ Give your resource a describing name and hit “Ok”:
           
           Your string has now been moved to the strings.xml file.
 
+
+
+## 15. OutofMemoryError
+
+## Solution:-
+This is thrown when your app is making memory requests that the system can’t meet.
+
+There are many potential causes of an OutOfMemoryError, but some of the most common include holding onto references for too long, loading large bitmaps, and memory leaks. The fix will vary depending on the cause of your particular OutOfMemoryError, so you’ll need to track down the problem before you can work out the solution. For example, if the error turns out to be related to large, memory-hogging bitmaps, then a possible fix might be to load the bitmap at a reduced scale.
+
+Android Studio comes with various tools that can help you analyze the way your app is using memory, including Memory Monitor, Allocation Tracker, HPROF Viewer, and the Android Device Monitor’s ‘Heap’ tab.
+
+## A general approach to solving all these kinds of errors can be given as in the below chart:-
+
+<img src="https://s3.amazonaws.com/codementor_content/2016-Nov/android-app-wont-run-infographic.png" width="450">
+
+
+
 # Credits
 
 - kartikohri1712 - [GitHub](https://github.com/kartikohri1712)
