@@ -183,6 +183,19 @@ Android Studio comes with various tools that can help you analyze the way your a
 
 
 
+## 16. Image acquiring extra space and shifting its siblings up/down unnecessarily
+
+## Solution:-
+So, if you have typed in the right source code:-
+<img src="http://i64.tinypic.com/2wqh02f.png" width="350">
+
+And your image is showing an unexpected behavior:-
+<img src="http://i67.tinypic.com/20gb3hc.png" width="350">
+
+Just add _android:adjustViewBounds="true"_
+ImageView will adjust its bounds to preserve the aspect ratio of its drawable. 
+(In simpler terms, non-acquiring of extra Margin at the Top/Right/Left/Right)
+
 # Credits
 
 - kartikohri1712 - [GitHub](https://github.com/kartikohri1712)
