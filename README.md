@@ -187,10 +187,10 @@ Android Studio comes with various tools that can help you analyze the way your a
 
 ## Solution:-
 So, if you have typed in the right source code:-
-<img src="http://i64.tinypic.com/2wqh02f.png">
+<img src="http://i64.tinypic.com/2wqh02f.png" width="450">
 
 And your image is showing an unexpected behavior:-
-<img src="http://i67.tinypic.com/20gb3hc.png">
+<img src="http://i67.tinypic.com/20gb3hc.png" width="450">
 
 Just add _android:adjustViewBounds="true"_
 ImageView will adjust its bounds to preserve the aspect ratio of its drawable. 
