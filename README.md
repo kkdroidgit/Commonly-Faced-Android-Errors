@@ -183,6 +183,12 @@ Android Studio comes with various tools that can help you analyze the way your a
 
 
 
+## 16. NullPointerException on setOnClickListener()
+
+## Solution:-
+
+NullPointerException appears when the method setOnClicklistener() cannot find the View element that you are trying to call this method on. Kindly check if you have written correct View element name in the initialization statement and there are no errors in the XML view.
+
 # Credits
 
 - kartikohri1712 - [GitHub](https://github.com/kartikohri1712)
