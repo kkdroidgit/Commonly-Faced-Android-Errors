@@ -190,13 +190,14 @@ Android Studio comes with various tools that can help you analyze the way your a
 NullPointerException appears when the method setOnClicklistener() cannot find the View element that you are trying to call this method on. Kindly check if you have written correct View element name in the initialization statement and there are no errors in the XML view.
 
 
-## 17. Cmake_Error in Androidstudio
+## 17. CMAKE_Error in Android Studio
 
 <img src="https://discourse-cdn-sjc3.com/udacity/uploads/default/optimized/4X/4/a/c/4ac1f9cfc8115fa6b2fcb2ec9693ec7ad658ba89_1_690x387.png" width="450">
 
 ## Solution:-
 
-cmake error you get because of chossing c++ language option at time of making project.If you want to get rid of it,there are two way;
+You may get cmake error because of chossing c++ language option at time of making project.If you want to get rid of it,there are two easy ways and one tough way.
+There are two easy ways
 1.eiher at time of new project ,you deselect c++ option;
 2.or ,you can download full package of cmake;
 your problem will be resolve with it.
@@ -205,6 +206,40 @@ To download the Cmake.
 Just follow this -
 File > Settings > Appearance and behavior> System Settings > Android SDK  
 Here in SDk tools —> Cmake —> download it and install.
+
+If you cannot follow the above ways, here is the tough method.
+
+1)Go to your app's build.gradle file and remove the following lines 
+````
+externalNativeBuild {
+            cmake {
+                cppFlags ""
+            }
+        }
+````
+
+````
+externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+````
+2) Go to your activity's java file and remove following lines. They may be present at different places inside the file. Delete 'em all.
+````
+static {
+        System.loadLibrary("native-lib");
+    }
+````
+````
+        TextView tv = (TextView) findViewById(R.id.sample_text);
+        tv.setText(stringFromJNI());
+````
+````
+public native String stringFromJNI();
+````
+3) This step is optional but to reduce app size is recommended. Delete CMakeLists.txt and cpp folder containing native-lib.cpp file. Now do a clean build on your project. You 're good to go. 
+
 
 
 
