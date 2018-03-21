@@ -206,6 +206,27 @@ Just follow this -
 File > Settings > Appearance and behavior> System Settings > Android SDK  
 Here in SDk tools —> Cmake —> download it and install.
 
+
+
+## 18. How to change the icon of an app ?
+
+## Solution :-
+
+1. Go to AndroidManifest.xml
+
+2. In the tag, look for android:icon tag.
+
+3. Copy and paste your icon in drawable folder(available in res folder of your project).
+
+4. Set the value of android:icon tag as
+
+    android:icon="@drawable/youriconname"
+
+ This will change your icon off the app . For more clarity refer to the video link below 
+ 
+ 
+ https://www.youtube.com/watch?v=SDKwNh0TioE
+
 # Credits
 
 - kartikohri1712 - [GitHub](https://github.com/kartikohri1712)
