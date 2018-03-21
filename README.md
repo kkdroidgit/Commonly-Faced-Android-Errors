@@ -34,7 +34,24 @@ Gradle is a build system and is improvised form of other build systems. It is ba
 ## Solution :-
 Install JDK 1.8. Then in Android Studio navigate to File-> Project Structure-> SDK Location, select your directory where the JDK is located.Click OK and you are good to go.
 
+## 5. How to change the icon of an app ?
 
+## Solution :-
+
+1. Go to AndroidManifest.xml
+
+2. In the tag, look for android:icon tag.
+
+3. Copy and paste your icon in drawable folder(available in res folder of your project).
+
+4. Set the value of android:icon tag as
+
+    android:icon="@drawable/youriconname"
+
+ This will change your icon off the app . For more clarity refer to the video link below 
+ 
+ 
+ https://www.youtube.com/watch?v=SDKwNh0TioE
 
 
 
