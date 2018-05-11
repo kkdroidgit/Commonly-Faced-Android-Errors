@@ -261,6 +261,17 @@ public native String stringFromJNI();
  
  
  https://www.youtube.com/watch?v=SDKwNh0TioE
+ 
+ ## 19. Android Studio XML layout design preview not available??
+ 
+ 
+Solution : Try 1 : Just close and open the Android Studio
+           Try 2 : Build -> Clean project -> rebuild  
+           Try 3 : click on " Design " tab below just after, " Text " Tab
+           Try 4 : click on file -> Invalidate cache/ Restart -> Invalidate and Restart
+           Try 5 : Find and click on sync project with grade files
+
+
 
 # Credits
 
