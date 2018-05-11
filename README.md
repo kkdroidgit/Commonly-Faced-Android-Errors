@@ -267,15 +267,15 @@ public native String stringFromJNI();
  
 ## Solution :- 
 
-1 : Just close and open the Android Studio 
+Try 1 : Just close and open the Android Studio 
 
-2 : Build -> Clean project -> rebuild  
+Try 2 : Build -> Clean project -> rebuild  
 
-3 : click on " Design " tab below just after, " Text " Tab
+Try 3 : click on " Design " tab below just after, " Text " Tab
 
-4 : click on file -> Invalidate cache/ Restart -> Invalidate and Restart
+Try 4 : click on file -> Invalidate cache/ Restart -> Invalidate and Restart
 
-5 : Find and click on sync project with grade files
+Try 5 : Find and click on sync project with grade files
 
 
 
@@ -287,4 +287,5 @@ public native String stringFromJNI();
 - Ikram Mohammad - [Github](https://github.com/Ikramkhan786)
 - Ojasvi Bhargava -[Github](https://github.com/ojasvibhargava)
 - Niraj Tiwary -[Github](https://github.com/tiwaryniraj)
+- Shubham Agrawal -[Github](https://github.com/shubhagrawal24)
 
